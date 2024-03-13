@@ -8,26 +8,21 @@ A real goofball. Big golden retriever energy. I fall into three-month rabbit hol
 
 ### Current quests ⚔️
 
-- ⚔️ SEP-internal code assistant
-- ⚔️ Embedded linux kernel dev for sport-vehicle infotainment systems: Yocto Project
+- ⚔️ Content conversation app for long drives: [drive-gooder](https://github.com/Harrolee/drive-gooder)
+- ⚔️ Embedded linux daemon dev for off-road vehicle infotainment systems: Cpp, QT, Yocto Project (OE + bitbake)
 
 ### Completed quests 🏆
 
+- SEP-internal code assistant
 - Employee timesheet ingestor for QuickBooks: C#, .Net 7
-- IoT application ecosystem support: Node.js, Typescript
-- Nest.js/React webapp cloud migration: AWS, GCP, and Azure
+- IoT application ecosystem support: Node, Typescript, Terraform, Azure
+- Nest.js/React webapp cloud migration: Terraform, Typescript, Node, AWS, GCP
 - React Native app for competitor to the [Coke Freestyle machine](https://www.coca-colafreestyle.com/)
-- Okta integration for legacy ASP.Net app
+- Okta integration for legacy ASP.Net app: Terraform,
 
 ### Generative AI
 
-I think auto-encoders are magic. The geniuses at Coqui.ai built an open-source voice clone tool. I built [echo-keeper](https://github.com/Harrolee/echo-keeper) to make dataset-creation a less tedious and actually kind of fun.
-
-## <span style="color:green">Projects</span>
-
-- drive-gooder
-- teensy bass pedal
-- echo-keeper
+I think auto-encoders are magic. The geniuses at Coqui.ai built an open-source voice clone tool. I built [echo-keeper](https://github.com/Harrolee/echo-keeper) to make dataset-creation actually kind of fun.
 
 ## <span style="color:green">Personal</span>
 
