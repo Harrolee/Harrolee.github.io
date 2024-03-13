@@ -20,7 +20,7 @@ A real goofball. Big golden retriever energy. I fall into three-month rabbit hol
 - React Native app for competitor to the [Coke Freestyle machine](https://www.coca-colafreestyle.com/)
 - Okta integration for legacy ASP.Net app: Terraform,
 
-#### [Full Resume](./Full-Resume-3_12_24.pdf)
+#### [Full Resume](./resume.pdf)
 
 ### Generative AI
 
