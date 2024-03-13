@@ -20,6 +20,8 @@ A real goofball. Big golden retriever energy. I fall into three-month rabbit hol
 - React Native app for competitor to the [Coke Freestyle machine](https://www.coca-colafreestyle.com/)
 - Okta integration for legacy ASP.Net app: Terraform,
 
+#### [Full Resume](./Full-Resume-3_12_24.pdf)
+
 ### Generative AI
 
 I think auto-encoders are magic. The geniuses at Coqui.ai built an open-source voice clone tool. I built [echo-keeper](https://github.com/Harrolee/echo-keeper) to make dataset-creation actually kind of fun.
