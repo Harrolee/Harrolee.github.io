@@ -24,11 +24,19 @@ A real goofball. Big golden retriever energy. I fall into three-month rabbit hol
 
 ### Generative AI
 
-I think auto-encoders are magic. The geniuses at Coqui.ai built an open-source voice clone tool. I built [echo-keeper](https://github.com/Harrolee/echo-keeper) to make dataset-creation actually kind of fun.
+- I think auto-encoders are magic.
+
+- Andrej Karpathy's [course](https://karpathy.ai/zero-to-hero.html) is incredible and I recommend you take it.
+
+- I am uploading datasets and models to [HF/LeeHarrold](https://huggingface.co/LeeHarrold) as I make them.
+
+- I am working on a [content conversation](https://github.com/Harrolee/drive-gooder) app that should prevent me from reading articles while I drive.
+
+- The geniuses at [Coqui.ai](https://coqui.ai/) built an open-source voice clone tool. I built [echo-keeper](https://github.com/Harrolee/echo-keeper) to make dataset-creation actually kind of fun.
 
 ## <span style="color:green">Personal</span>
 
-I saw Victor Wooten and Thundercat play at 2021 Indy Jazzfest. I took the evening as a cosmic invitation to purchase a bass guitar. Now I play in a classic rock cover band. We're called [Nucklehead](https://www.facebook.com/NuckleheadBand/).
+I saw Victor Wooten and Thundercat play at 2021 Indy Jazzfest. I took the evening as a cosmic invitation to purchase a bass guitar. I'm slowly getting better by playing in a classic rock cover band. We're called [Nucklehead](https://www.facebook.com/NuckleheadBand/).
 <img src="/assets/lee_colts.jpg" alt="Lee playing bass guitar at a Colts game" width="450" style="float: right; margin-bottom: 5px; margin-left: 10px;"/>
 
 ---
