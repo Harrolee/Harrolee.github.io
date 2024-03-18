@@ -4,6 +4,10 @@ A real goofball. Big golden retriever energy. I fall into three-month rabbit hol
 
 <img src="/assets/wizard_fingers.jpg" alt="Lee presenting a slideshow at a conference" width="450" style="float: right; margin-bottom: 5px; margin-left: 10px;"/>
 
+## <span style="color:green">HSE devs?</span>
+
+--> [Go here](./HSE_devs.md)
+
 ## <span style="color:green">Selected work</span>
 
 ### Current quests ⚔️
