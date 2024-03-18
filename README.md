@@ -6,7 +6,7 @@ A real goofball. Big golden retriever energy. I fall into three-month rabbit hol
 
 ## <span style="color:green">HSE devs?</span>
 
---> [Go here](./HSE_devs.md)
+--> [Go here](https://harrolee.github.io/HSE_devs.html)
 
 ## <span style="color:green">Selected work</span>
 
