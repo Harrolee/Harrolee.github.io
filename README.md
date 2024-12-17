@@ -1,24 +1,29 @@
-<span style="color:green">Lee Harrold</span>
+# <span style="color:green">Lee Harrold</span>
 
-A real goofball. Big golden retriever energy. I fall into three-month rabbit holes and emerge, nose full of dirt, mouth full of, uh, proverbial rabbits? I work at <a href="https://sep.com/">SEP</a> in Westfield, Indiana. Come visit!
+A real goofball with golden retriever energy. I fall into three-month rabbit holes and emerge, nose full of dirt, mouth full of, uh, proverbial rabbits? I work with the AI Practice at <a href="https://sep.com/">SEP</a> in Westfield, Indiana. Come visit!
 
 <img src="/assets/wizard_fingers.jpg" alt="Lee presenting a slideshow at a conference" width="450" style="float: right; margin: 5px 0 10px 10px;"/>
 
-## <span style="color:green">HSE devs?</span>
+## <span style="color:green">Presentation resources</span>
 
---> <a href="https://harrolee.github.io/HSE_devs.html">Go here</a>
+- <a href="https://harrolee.github.io/IgniteIndyWorkshop12-12/landing.html">Ignite Indy 12/12 workshop</a>
+
+- <a href="https://harrolee.github.io/HSE_devs.html">HSE High School Students</a>
 
 ## <span style="color:green">Selected work</span>
 
 ### Current quests ⚔️
 
+- ⚔️ make AI Engineers from developers in Indy: [recent workshop](https://info.sep.com/ignite-indy-2024)
+- ⚔️ multi-sided platform for band merch: [sticker-maker](https://github.com/Harrolee/sticker-maker)
+- ⚔️ agentic app to help Americans buy health insurance
 - ⚔️ SEP-internal RAG app
-- ⚔️ <a href="https://github.com/Harrolee/audio-diffusion">audio-diffusion model</a>
-- ⚔️ Content conversation app for long drives: <a href="https://github.com/Harrolee/drive-gooder">drive-gooder</a>
 
 ### Completed quests 🏆
 
+- RAG-powered research query engine for nascient breakthroughs
 - SEP-internal code assistant
+- In the past, creating a voice clone required a dataset. I built <a href="https://github.com/Harrolee/echo-keeper">echo-keeper</a> to make dataset-creation more fun.
 - Embedded linux daemon dev for off-road vehicle infotainment systems: Cpp, QT, Yocto Project (OE + BitBake)
 - Employee timesheet ingestor for QuickBooks: C#, .Net 7
 - IoT application ecosystem support: Node, Typescript, Terraform, Azure
@@ -26,15 +31,12 @@ A real goofball. Big golden retriever energy. I fall into three-month rabbit hol
 - React Native app for competitor to the <a href="https://www.coca-colafreestyle.com/">Coke Freestyle machine</a>
 - Okta integration for legacy ASP.Net app: Terraform, PowerShell, C#, JS/Angular, BASH, Azure Functions
 
-#### <a href="./resume.pdf">Full Resume</a>
+### Abandoned quests 😭
 
-### Generative AI
+- <a href="https://github.com/Harrolee/audio-diffusion">learn diffusion by building an audio-diffusion model</a>
+- Content conversation app for long drives: <a href="https://github.com/Harrolee/drive-gooder">drive-gooder</a>
 
-- I think auto-encoders are magic.
-- Andrej Karpathy's <a href="https://karpathy.ai/zero-to-hero.html">course</a> is incredible and I recommend you take it.
-- I am uploading datasets and models to <a href="https://huggingface.co/LeeHarrold">HF/LeeHarrold</a> as I make them.
-- I am working on a <a href="https://github.com/Harrolee/drive-gooder">content conversation</a> app that should prevent me from reading articles while I drive.
-- The geniuses at <a href="https://coqui.ai/">Coqui.ai</a> built an open-source voice clone tool. I built <a href="https://github.com/Harrolee/echo-keeper">echo-keeper</a> to make dataset-creation actually kind of fun.
+### <a style="color:green" href="./shortResume.pdf">Resume</a>
 
 ## <span style="color:green">Personal</span>
 

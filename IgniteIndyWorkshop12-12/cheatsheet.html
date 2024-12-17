@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI Capabilities Reference Sheet</title>
+</head>
+<body>
+    <h1>GenAI Capabilities Reference Sheet</h1>
+    <h2>1 Core Text Understanding & Generation</h2>
+    <h3>Base LLMs</h3>
+    <p>Description: Foundation models for understanding and generating human language</p>
+    <p>When to use: General text generation, understanding, and dialogue</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Natural language understanding</li>
+        <li>Following complex instructions</li>
+        <li>Generating human-like text</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Real-time updates</li>
+        <li>Consistent factual accuracy</li>
+        <li>Specialized domain knowledge without training</li>
+    </ul>
+    <h3>Text Embeddings</h3>
+    <p>Description: Convert text into numerical vectors capturing semantic meaning</p>
+    <p>When to use: Semantic search, clustering, similarity detection</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Capturing semantic relationships</li>
+        <li>Enabling efficient similarity searches</li>
+        <li>Working with any language</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Preserving word order</li>
+        <li>Understanding context beyond input</li>
+        <li>Handling very long documents</li>
+    </ul>
+    <h3>Chain-of-Thought Prompting</h3>
+    <p>Description: Guide LLMs to show step-by-step reasoning</p>
+    <p>When to use: Complex problem-solving, debugging, explanation generation</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Transparent decision making</li>
+        <li>Complex reasoning tasks</li>
+        <li>Educational explanations</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Very long chains of reasoning</li>
+        <li>Handling uncertainty</li>
+        <li>Time-efficient processing</li>
+    </ul>
+    <h3>Few-Shot Learning</h3>
+    <p>Description: Train models with minimal examples in the prompt</p>
+    <p>When to use: Quick adaptation to new tasks, formatting consistency</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Pattern matching</li>
+        <li>Format consistency</li>
+        <li>Quick task adaptation</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Complex tasks requiring many examples</li>
+        <li>Generalizing from very few examples</li>
+        <li>Handling edge cases</li>
+    </ul>
+    <h3>Zero-shot Classification</h3>
+    <p>Description: Categorize content without prior examples</p>
+    <p>When to use: Dynamic categorization, flexible classification needs</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Adapting to new categories</li>
+        <li>Basic content classification</li>
+        <li>Working with clear categories</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Highly nuanced distinctions</li>
+        <li>Domain-specific terminology</li>
+        <li>Consistent accuracy across categories</li>
+    </ul>
+    <h2>2 Knowledge & Retrieval</h2>
+    <h3>RAG (Retrieval-Augmented Generation)</h3>
+    <p>Description: Enhance LLM responses with external knowledge</p>
+    <p>When to use: Need accurate, up-to-date, or domain-specific responses</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Reducing hallucinations</li>
+        <li>Handling proprietary information</li>
+        <li>Providing verifiable responses</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Complex reasoning across documents</li>
+        <li>Handling conflicting information</li>
+        <li>Managing large context windows</li>
+    </ul>
+    <h3>Semantic Text Search</h3>
+    <p>Description: Advanced search understanding meaning, not just keywords</p>
+    <p>When to use: Information retrieval, document search, content discovery</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Understanding search intent</li>
+        <li>Handling synonyms and related concepts</li>
+        <li>Ranking by relevance</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Exact keyword matching</li>
+        <li>Complex boolean queries</li>
+        <li>Very large-scale deployments</li>
+    </ul>
+    <h3>Text Summarization</h3>
+    <p>Description: Create concise versions of longer texts</p>
+    <p>When to use: Document processing, content briefs, information extraction</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Identifying key points</li>
+        <li>Maintaining core meaning</li>
+        <li>Handling different text types</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Preserving all important details</li>
+        <li>Technical content accuracy</li>
+        <li>Very long documents</li>
+    </ul>
+    <h3>Content Generation with Control</h3>
+    <p>Description: Generate text with specific parameters (temperature, sampling)</p>
+    <p>When to use: Need specific creativity/randomness levels</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Consistent output control</li>
+        <li>Balancing creativity/determinism</li>
+        <li>Different writing styles</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Guaranteeing uniqueness</li>
+        <li>Perfect reliability at extremes</li>
+        <li>Complex creative tasks</li>
+    </ul>
+    <h2>3 Multimodal Capabilities</h2>
+    <h3>Vision Language Models</h3>
+    <p>Description: Process and understand images alongside text</p>
+    <p>When to use: Image analysis, visual Q&A, content moderation</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Describing image contents</li>
+        <li>Answering questions about images</li>
+        <li>Identifying objects/scenes</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Fine detail measurement</li>
+        <li>Text extraction from images</li>
+        <li>Abstract concept understanding</li>
+    </ul>
+    <h3>Image Generation</h3>
+    <p>Description: Create, edit, or modify images from text descriptions</p>
+    <p>When to use: Design ideation, content creation, image editing</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Creating diverse images</li>
+        <li>Following style guidelines</li>
+        <li>Basic image manipulation</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Perfect accuracy</li>
+        <li>Consistent specific details</li>
+        <li>Complex sequential edits</li>
+    </ul>
+    <h3>TTS (Text-to-Speech)</h3>
+    <p>Description: Convert written text into natural-sounding speech</p>
+    <p>When to use: Accessibility features, audio content, voice assistants</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Natural prosody</li>
+        <li>Multiple voices/languages</li>
+        <li>Real-time generation</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Complex emotions</li>
+        <li>Rare word pronunciation</li>
+        <li>Ambiguous formatting</li>
+    </ul>
+    <h3>STT (Speech-to-Text)</h3>
+    <p>Description: Convert spoken audio into written text</p>
+    <p>When to use: Transcription, voice commands, accessibility</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Multiple speaker handling</li>
+        <li>Real-time transcription</li>
+        <li>Common accents</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Heavy background noise</li>
+        <li>Technical terminology</li>
+        <li>Simultaneous speakers</li>
+    </ul>
+    <h2>4 Developer Tools & Code</h2>
+    <h3>Function Calling</h3>
+    <p>Description: Parse input into structured API calls</p>
+    <p>When to use: Building AI assistants with external services</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Structured data extraction</li>
+        <li>Following schemas</li>
+        <li>Task automation</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Complex decision trees</li>
+        <li>Edge cases</li>
+        <li>Real-time error recovery</li>
+    </ul>
+    <h3>Structured Output</h3>
+    <p>Description: Generate responses in specific formats</p>
+    <p>When to use: Data extraction, API integration, format conversion</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Consistent structure</li>
+        <li>Data transformation</li>
+        <li>Schema compliance</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Complex nested structures</li>
+        <li>Very large outputs</li>
+        <li>Perfect syntax in edge cases</li>
+    </ul>
+    <h3>Code Generation/Completion</h3>
+    <p>Description: Generate or suggest code completions</p>
+    <p>When to use: Development assistance, code conversion, documentation</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Common pattern completion</li>
+        <li>Basic code generation</li>
+        <li>Documentation writin</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Complex algorithms</li>
+        <li>Security-critical code</li>
+        <li>Framework-specific code</li>
+    </ul>
+    <h3>Model Optimization</h3>
+    <p>Description: Optimize models for production deployment</p>
+    <p>When to use: Production deployment, resource constraints</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Reducing model size</li>
+        <li>Improving inference speed</li>
+        <li>Maintaining performance</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Zero impact on accuracy</li>
+        <li>Complex model architectures</li>
+        <li>Custom hardware optimization</li>
+    </ul>
+    <h2>5 Customization & Optimization</h2>
+    <h3>Fine-tuning/PEFT</h3>
+    <p>Description: Customize models for specific tasks efficiently</p>
+    <p>When to use: Domain adaptation, specific task optimization</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Improving specific tasks</li>
+        <li>Resource efficiency</li>
+        <li>Maintaining base knowledge</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Very small datasets</li>
+        <li>Complete behavior changes</li>
+        <li>Multiple task optimization</li>
+    </ul>
+    <h3>Knowledge Distillation</h3>
+    <p>Description: Create smaller models learning from larger ones</p>
+    <p>When to use: Model compression, deployment optimization</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Preserving core capabilities</li>
+        <li>Reducing model size</li>
+        <li>Improving inference speed</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Matching full model performance</li>
+        <li>Complex task transfer</li>
+        <li>Very small model targets</li>
+    </ul>
+    <h2>6 Orchestration & Control</h2>
+    <h3>LLMs as Agents</h3>
+    <p>Description: Autonomous LLMs for multi-step tasks</p>
+    <p>When to use: Complex task automation, workflow orchestration</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Task breakdown</li>
+        <li>Adaptation</li>
+        <li>Context maintenance</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Perfect reliability</li>
+        <li>Real-world interaction</li>
+        <li>Time-sensitive operations</li>
+    </ul>
+    <h3>Prompt Chaining/Orchestration</h3>
+    <p>Description: Coordinate multiple AI tasks in sequence</p>
+    <p>When to use: Complex workflows, multi-step processing</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Task coordination</li>
+        <li>Information flow</li>
+        <li>Error handling</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Real-time processing</li>
+        <li>Complex dependencies</li>
+        <li>Resource optimization</li>
+    </ul>
+    <h3>Ranking Models</h3>
+    <p>Description: Score and order items by relevance/quality</p>
+    <p>When to use: Search optimization, content curation</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Relative quality comparison</li>
+        <li>User feedback learning</li>
+        <li>Diverse content handling</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Absolute quality assessment</li>
+        <li>Reasoning explanation</li>
+        <li>Subjective criteria</li>
+    </ul>
+    <h3>Self-Reflection/Self-Correction</h3>
+    <p>Description: Models that can evaluate and improve their own outputs</p>
+    <p>When to use: Quality assurance, iterative improvement</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Error detection</li>
+        <li>Output improvement</li>
+        <li>Consistency checking</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Complex reasoning errors</li>
+        <li>Understanding own limitations</li>
+        <li>Time-efficient processing</li>
+    </ul>
+    <h3>LLM-as-Judge</h3>
+    <p>Description: Use LLMs to evaluate outputs/solutions</p>
+    <p>When to use: Quality assessment, content moderation</p>
+    <p>Good at:</p>
+    <ul>
+        <li>Consistency in evaluation</li>
+        <li>Multi-criteria assessment</li>
+        <li>Feedback generation</li>
+    </ul>
+    <p>Bad at:</p>
+    <ul>
+        <li>Absolute quality metrics</li>
+        <li>Technical evaluations</li>
+        <li>Cross-model consistency</li>
+    </ul>
+</body>
+</html>
