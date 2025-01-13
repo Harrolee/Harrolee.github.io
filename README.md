@@ -6,6 +6,8 @@ A real goofball with golden retriever energy. I fall into three-month rabbit hol
 
 ## <span style="color:green">Presentation resources</span>
 
+- <a href="https://harrolee.github.io/codemash2025.html">CodeMash 2025 PreCompiler: AI Engineering Katas</a>
+
 - <a href="https://harrolee.github.io/IgniteIndyWorkshop12-12/landing.html">Ignite Indy 12/12 workshop</a>
 
 - <a href="https://harrolee.github.io/HSE_devs.html">HSE High School Students</a>
